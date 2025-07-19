@@ -1,3 +1,4 @@
+// Seng 440 Embedded Systems - Term Project
 #include <stdio.h>
 #include <stdlib.h>
 
