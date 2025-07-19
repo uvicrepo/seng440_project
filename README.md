@@ -4,12 +4,13 @@ This project implements Montgomery Modular Multiplication (MMM) in both C and AR
 The focus is on preventing side-channel attacks by ensuring constant-time execution.
 
 Files:
-- main.c         : Main C program with logic for testing MMM
-- mmm_asm.s      : Assembly version of the MMM function
-- mmm_test       : Output executable (created after compilation)
+- main.c             : Main C program with logic for testing MMM
+- mmm_original.c     : Isolated original C version of the MMM function
+- mmm_asm.s          : Hand optimized Assembly version of the MMM function
+- mmm_test           : Output executable (created after compilation)
 
 To build:
-$ gcc main.c mmm_asm.s -o mmm_test
+$ gcc main.c mmm_original.c mmm_asm.s -o mmm_test
 
 To run:
 $ ./mmm_test

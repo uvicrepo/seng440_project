@@ -1,3 +1,4 @@
+ @ HAND WRITTEN - not compiler generated
     .global MMM_asm
     .text
 
