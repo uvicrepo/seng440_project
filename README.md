@@ -8,9 +8,9 @@ Files:
 - main.c                : Main C program with logic for testing MMM
 - mmm_original.c        : Isolated original C version of the MMM function
 - mmm_original.s        : Compiler generated version of original MMM function
-- mmm_optimized.c       : Refactored original MMM function (c Code) for SCA defense
-- mmm_optimized.s       : Compiler generated version of optimized MMM function
-- mmm_custom.s          : Hand optimized Assembly version of the MMM function
+- mmm_hardened.c       : Refactored MMM function for SCA defense
+- mmm_hardened.s       : Compiler generated version of optimized MMM function
+- mmm_custom.s          : Custom written Assembly version of the MMM function
 - mmm_test              : Output executable (created after compilation)
 
 To build:
